@@ -1,0 +1,21 @@
+{
+    "name": "zComments Viewer",
+    "version": "1",
+    "manifest_version": 2,
+    "description": "Click and see 'banned' comments from zamunda torrents.",
+    "background": { 
+        "scripts": ["background.js"] 
+    },
+    "browser_action": {
+        "default_icon": "vamp.ico"
+    },
+    "icons": {
+        "16": "vamp16.ico",
+        "32": "vamp32.ico",
+        "48": "vamp48.ico"
+    },
+    "permissions": [
+        "tabs", 
+        "http://*/*"
+    ]
+}
